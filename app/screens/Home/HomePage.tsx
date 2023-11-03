@@ -37,7 +37,6 @@ const HomePage = () => {
       <ChoiseCard />
       <Accordion />
       <Wbnt />
-
     </>
   );
 };
