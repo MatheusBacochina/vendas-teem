@@ -8,9 +8,9 @@ const BeApproved = () => {
         src={"/docs.png"}
         style={{
           objectFit: "cover",
-          objectPosition: "center",
+          objectPosition: "top",
         }}
-        className="-z-40 opacity-20 sm:opacity-100"
+        className="-z-40 opacity-20 sm:opacity-40"
       />
       <h1 className="text-center leading-tight text-white text-[24px] sm:text-[31px] md:text-[35px] lg:text-[38px] xl:text-[46px] 2xl:text-[56px] font-black font-roboto uppercase">
         SEJA <span className="text-orange-600">APROVADO</span> NO TEEM 2024

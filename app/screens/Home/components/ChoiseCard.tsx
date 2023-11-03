@@ -69,9 +69,9 @@ const ChoiseCard = () => {
           ou R$2.997,00 à vista.
         </span>
         <Link href="https://vendas.grupomedcof.com.br/pay/medcof-teem-2024 " className="w-full">
-          <button className="w-full mt-5 hover:bg-[#e7e7e7] transition-colors py-3 bg-white mb-4 rounded-md justify-center items-center inline-flex">
+          <button className="w-full mt-5 hover:shadow-md transition-colors shadow py-3 bg-white mb-4 rounded-md justify-center items-center inline-flex">
             <span className="text-center text-stone-900 text-base font-normal font-roboto">
-              Quero ser aprovados
+              Quero ser aprovado
             </span>
           </button>
         </Link>

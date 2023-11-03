@@ -3,9 +3,14 @@ const Questions = () => {
   return (
     <div className="">
       <div className="container relative flex flex-col items-center lg:items-start px-4 mx-auto mt-20">
-      <div className="h-full w-96 absolute right-0 opacity-40 hidden lg:block">
-        <Image fill alt="robo" src={"/robo.png"} style={{ objectFit: "contain" }} />
-      </div>
+        <div className="h-full w-96 absolute right-0 opacity-40 hidden lg:block">
+          <Image
+            fill
+            alt="robo"
+            src={"/robo.png"}
+            style={{ objectFit: "contain" }}
+          />
+        </div>
         <div className="max-w-[586px]">
           <h6 className="w-[246px] h-[15px] text-orange-600 text-xs font-black font-inter uppercase leading-none">
             MAIS DE 30 MIL QUESTÕES
@@ -30,9 +35,10 @@ const Questions = () => {
           <div className="flex py-5 gap-4 border-b border-rose-100">
             <Image width={40} height={40} alt="person" src={"/person.svg"} />
             <p className="text-black text-base font-normal font-roboto leading-normal">
-              São + de 30.000 de questões comentadas em alto nível - de todas as
-              áreas da medicina - em vídeo e texto por um subespecialista de
-              cada área.
+              São +300 questões comentadas em alto nível - com foco no que mais
+              cai no TEEM - em vídeo e texto por endocrinologistas da USP
+              titulados! E +100 questões comentadas serão adicionadas todos os
+              meses! Totalizando +900 questões até a prova do TEEM 2024
             </p>
           </div>
           <div className="flex py-5 gap-4">

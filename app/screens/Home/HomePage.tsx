@@ -16,6 +16,7 @@ import Choise from "./components/Choise";
 import ChoiseCard from "./components/ChoiseCard";
 import Accordion from "./components/Accordion";
 import Wbnt from "./components/Wbnt";
+import Doctors from "./components/Doctors";
 const HomePage = () => {
   return (
     <>
@@ -33,6 +34,7 @@ const HomePage = () => {
       <Timeline />
       <Stamp />
       <BeApproved />
+      <Doctors />
       <Choise />
       <ChoiseCard />
       <Accordion />

@@ -10,7 +10,7 @@ const Focus = () => {
       </h3>
       <div className="flex flex-wrap gap-6 mt-4 justify-center sm:mt-[54px] md:mt-[57px] lg:mt-[59px] xl:mt-[61px] 2xl:mt-[64px]">
         <div className="basis-[320px] flex flex-col items-center p-6">
-          <h6 className="text-center h-[56px] text-black text-lg font-extrabold font-roboto">
+          <h6 className="text-center h-auto lg:h-[46px] xl:h-[51px] 2xl:h-[56px]  text-black text-lg font-extrabold font-roboto">
             APRENDIZAGEM DIRECIONADA
           </h6>
           <div className="min-h-[220px]">
@@ -33,7 +33,7 @@ const Focus = () => {
           />
         </div>
         <div className="basis-[320px] flex flex-col items-center p-6">
-          <h6 className="text-center h-[56px] text-black text-lg font-extrabold font-roboto">
+          <h6 className="text-center h-auto md:h-[41px] lg:h-[46px] xl:h-[51px] 2xl:h-[56px]  text-black text-lg font-extrabold font-roboto">
             SEDIMENTAÇÃO E APLICAÇÃO DO CONTEÚDO
           </h6>
           <div className="min-h-[220px]">
@@ -54,7 +54,7 @@ const Focus = () => {
           />
         </div>
         <div className="basis-[320px] flex flex-col items-center p-6">
-          <h6 className="text-center h-[56px] text-black text-lg font-extrabold font-roboto">
+          <h6 className="text-center h-auto lg:h-[46px] xl:h-[51px] 2xl:h-[56px]  text-black text-lg font-extrabold font-roboto">
             SEGURANÇA PARA A PROVA
           </h6>
           <div className="min-h-[220px]">

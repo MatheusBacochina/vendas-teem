@@ -25,8 +25,8 @@ const AccordionEl = () => {
         <Accordion variant="light">
           <AccordionItem
             key="1"
-            aria-label="Eu não tenho material para estudar, a mentoria é para mim? "
-            title="Eu não tenho material para estudar, a mentoria é para mim? "
+            aria-label="Eu não tenho material para estudar, o curso é para mim?"
+            title="Eu não tenho material para estudar, o curso é para mim?"
           >
             Para quem ainda não tem material específico de estudo, temos um
             curso completamente voltado e completo para o TEEM 2024. Todos os
