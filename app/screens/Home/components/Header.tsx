@@ -3,10 +3,11 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 const Header = () => {
   const [scrolly, setScrolly] = useState(0);
-
+const [heigth, setHeigth] = useState(0);
   useEffect(() => {
     function scroll() {
       setScrolly(window.scrollY);
+      setHeigth(window.innerHeight)
     }
     window.addEventListener("scroll", scroll);
     return () => {
@@ -23,7 +24,7 @@ const Header = () => {
         style={{
           objectFit: "cover",
           transform: `translateY(${
-            (scrolly < window.innerHeight ? scrolly : 0) * 0.5
+            (scrolly < heigth ? scrolly : 0) * 0.5
           }px)`,
         }}
         className="-z-40 opacity-30 md:opacity-40"

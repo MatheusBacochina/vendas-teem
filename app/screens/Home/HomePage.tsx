@@ -15,6 +15,7 @@ import BeApproved from "./components/BeApproved";
 import Choise from "./components/Choise";
 import ChoiseCard from "./components/ChoiseCard";
 import Accordion from "./components/Accordion";
+import Wbnt from "./components/Wbnt";
 const HomePage = () => {
   return (
     <>
@@ -31,10 +32,12 @@ const HomePage = () => {
       <ExclusiveAndLimited />
       <Timeline />
       <Stamp />
-      <BeApproved /> 
+      <BeApproved />
       <Choise />
       <ChoiseCard />
       <Accordion />
+      <Wbnt />
+
     </>
   );
 };

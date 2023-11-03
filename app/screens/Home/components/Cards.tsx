@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 const Cards = () => {
   return (
     <div className="z-50">
@@ -42,7 +43,11 @@ const Cards = () => {
             Prepare-se de forma inteligente e eficaz para alcançar o sucesso no
             exame de título.
           </p>
-          <button className="bg-red-500 hover:bg-red-400 transition-colors rounded px-7 py-3 mt-7 text-center text-white text-[15px] font-roboto">Garantir minha vaga</button>
+          <Link href={"/#card"}>
+            <button className="bg-red-500 hover:bg-red-400 transition-colors rounded px-7 py-3 mt-7 text-center text-white text-[15px] font-roboto">
+              Garantir minha vaga
+            </button>
+          </Link>
         </div>
         <div className="relative shadow bg-black border-b-4 border-red-600 basis-96 flex flex-col items-center px-8 py-12">
           <div className="h-16 w-16 relative">

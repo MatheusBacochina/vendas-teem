@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 const ChoiseCard = () => {
   return (
     <div id="card" className="px-4 flex flex-col items-center">
@@ -67,9 +68,13 @@ const ChoiseCard = () => {
         <span className="text-center mt-1 text-white text-base font-semibold font-roboto">
           ou R$2.997,00 à vista.
         </span>
-        <button className="w-full mt-5 hover:bg-[#e7e7e7] transition-colors py-3 bg-white mb-4 rounded-md justify-center items-center inline-flex">
-          <span className="text-center text-stone-900 text-base font-normal font-roboto">Quero ser aprovado</span>
-        </button>
+        <Link href="https://vendas.grupomedcof.com.br/pay/medcof-teem-2024 " className="w-full">
+          <button className="w-full mt-5 hover:bg-[#e7e7e7] transition-colors py-3 bg-white mb-4 rounded-md justify-center items-center inline-flex">
+            <span className="text-center text-stone-900 text-base font-normal font-roboto">
+              Quero ser aprovados
+            </span>
+          </button>
+        </Link>
       </div>
     </div>
   );

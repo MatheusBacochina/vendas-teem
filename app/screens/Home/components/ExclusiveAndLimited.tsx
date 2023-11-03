@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 const ExclusiveAndLimited = () => {
   return (
     <div className="px-4 mt-[64px] sm:mt-[80px] flex justify-center md:mt-[88px] lg:mt-[96px] xl:mt-[104px] 2xl:mt-[112px]">
@@ -30,9 +31,11 @@ const ExclusiveAndLimited = () => {
             ajustar a sua rotina apertada de estudos a um ensino direcionado e
             orientado ao que realmente cai em cada literatura específica.
           </p>
+          <Link href={"/#card"}>
           <button className="border-2 hover:border-orange-400 transition-all border-orange-600 px-12 py-4 flex items-center rounded-3xl mt-6">
             <span className="text-center text-white text-sm font-bold font-roboto uppercase leading-[14px]">Garanta sua vaga AGORA!</span>
           </button>
+          </Link>
         </div>
         <div className="flex-1 w-full">
           <p className="text-red-600 text-base font-normal font-roboto leading-normal">
