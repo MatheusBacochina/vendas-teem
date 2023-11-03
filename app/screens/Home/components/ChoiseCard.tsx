@@ -56,20 +56,23 @@ const ChoiseCard = () => {
             Guia Estatístico: análise estatística de desempenho
           </li>
         </ul>
-        <span className="text-center mt-6 text-white text-base font-normal font-roboto">
-          R$3.497,00
+        <span className="text-center mt-6 text-white text-[18px] font-bold font-roboto leading-none">
+         (Apenas nas primeiras 24H)
+        </span>
+        <span className="text-center mt-2 text-white text-base font-normal font-roboto">
+          <s>R$3.497,00</s>
         </span>
         <h1 className="text-center text-white text-[43px] font-bold font-roboto leading-none">
           R$249,75
         </h1>
-        <span className="text-center mt-8 text-white text-base font-normal font-roboto">
+        <span className="text-center mt-6 text-white text-base font-normal font-roboto">
           em 12x no cartão
         </span>
-        <span className="text-center mt-1 text-white text-base font-semibold font-roboto">
+        <span className="text-center mt-1 text-white text-[16px] font-semibold font-roboto leading-none">
           ou R$2.997,00 à vista.
         </span>
-        <Link href="https://vendas.grupomedcof.com.br/pay/medcof-teem-2024 " className="w-full">
-          <button className="w-full mt-5 hover:shadow-md transition-colors shadow py-3 bg-white mb-4 rounded-md justify-center items-center inline-flex">
+        <Link href="https://vendas.grupomedcof.com.br/pay/medcof-teem-2024 " className="w-full mt-8">
+          <button className="w-full hover:shadow-md transition-colors shadow py-3 bg-white mb-4 rounded-md justify-center items-center inline-flex">
             <span className="text-center text-stone-900 text-base font-normal font-roboto">
               Quero ser aprovado
             </span>
