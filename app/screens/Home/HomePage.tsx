@@ -27,9 +27,9 @@ const HomePage = () => {
       <Cards />
       <WhatTheFocus />
       <CanBeImproved />
-      <Differential />
       <Focus />
       <Questions />
+      <Differential />
       <ExclusiveAndLimited />
       <Timeline />
       <Stamp />

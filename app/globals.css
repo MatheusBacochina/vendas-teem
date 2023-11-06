@@ -14,3 +14,7 @@
         width: 90%;
     }
 }
+
+*{
+    scroll-behavior: smooth
+}

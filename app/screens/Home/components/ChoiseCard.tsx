@@ -9,13 +9,13 @@ const ChoiseCard = () => {
       <h4 className="text-center mt-2 text-zinc-800 text-[18px] sm:text-[20px] md:text-[21px] lg:text-[22px] xl:text-[23px] 2xl:text-[24px] font-bold font-roboto">
         INSCREVA-SE NO MEDCOF TEEM 2024
       </h4>
-      <div className="max-w-[400px] flex flex-col items-center px-5 mt-[28px] sm:mt-[40px] md:mt-[46px] lg:mt-[52px] xl:mt-[58px] 2xl:mt-[64px] bg-rose-600 rounded-[20px]">
+      <div className="max-w-[400px] flex flex-col items-center px-5 mt-[28px] sm:mt-[40px] md:mt-[46px] lg:mt-[52px] xl:mt-[58px] 2xl:mt-[64px] bg-[#19C37D] rounded-[20px]">
         <Image
           width={98}
           height={76}
           alt="logo"
           src={"/logowhite.png"}
-          className="my-5"
+          className="mb-5 mt-10"
         />
         <ul className="mt-5">
           <li className=" text-white text-[13px] font-normal font-roboto gap-2 flex">
@@ -71,7 +71,7 @@ const ChoiseCard = () => {
         <span className="text-center mt-1 text-white text-[16px] font-semibold font-roboto leading-none">
           ou R$2.997,00 à vista.
         </span>
-        <Link href="https://vendas.grupomedcof.com.br/pay/medcof-teem-2024 " className="w-full mt-8">
+        <Link href="https://vendas.grupomedcof.com.br/pay/medcof-teem-2024" className="w-full mt-8">
           <button className="w-full hover:shadow-md transition-colors shadow py-3 bg-white mb-4 rounded-md justify-center items-center inline-flex">
             <span className="text-center text-stone-900 text-base font-normal font-roboto">
               Quero ser aprovado

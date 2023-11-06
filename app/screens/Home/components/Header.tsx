@@ -1,31 +1,39 @@
 import Image from "next/image";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 const Header = () => {
   const [scrolly, setScrolly] = useState(0);
-const [heigth, setHeigth] = useState(0);
+  const [heigth, setHeigth] = useState(0);
+  const [offsetTop, setOffsetTop] = useState(0);
+  const refHeader = useRef<HTMLDivElement>(null);
+
   useEffect(() => {
+    setHeigth(window.innerHeight);
+    if (refHeader.current) {
+      setOffsetTop(refHeader.current.offsetTop);
+    }
     function scroll() {
+      console.log(offsetTop)
       setScrolly(window.scrollY);
-      setHeigth(window.innerHeight)
     }
     window.addEventListener("scroll", scroll);
     return () => {
       window.removeEventListener("scroll", scroll);
     };
-  }, []);
+  }, [offsetTop]);
 
   return (
-    <header className="relative overflow-hidden pt-[86px] bg-black sm:pt-[92px] md:pt-[168px] isolate py-[124px] sm:py-[155px] md:py-[171px] lg:py-[186px] xl:py-[202px] 2xl:py-[218px]">
+    <header
+      ref={refHeader}
+      className="relative overflow-hidden pt-[86px] bg-black sm:pt-[92px] md:pt-[168px] isolate py-[124px] sm:py-[155px] md:py-[171px] lg:py-[186px] xl:py-[202px] 2xl:py-[218px]"
+    >
       <Image
         alt="background Header"
         fill
         src={"/bg.png"}
         style={{
           objectFit: "cover",
-          transform: `translateY(${
-            (scrolly < heigth ? scrolly : 0) * 0.5
-          }px)`,
+          transform: `translateY(${((scrolly >= offsetTop ) ? (scrolly - offsetTop) : 0) * 0.5}px)`,
         }}
         className="-z-40 opacity-30 md:opacity-40"
       />

@@ -18,7 +18,7 @@ const ExclusiveAndLimited = () => {
             EXCLUSIVO E LIMITADO
           </h6>
           <h3 className="text-white mt-2 text-[22px] sm:text-[24px] md:text-[26px] lg:text-[27px] xl:text-[28px] 2xl:text-[30px] font-bold font-roboto leading-tight">
-            OS 20 PRIMEIROS INSCRITOS VÃO RECEBER 06 MENTORIAS EXCLUSIVAS
+            OS 20 PRIMEIROS INSCRITOS VÃO RECEBER 06 MENTORIAS EM GRUPO EXCLUSIVAS
           </h3>
           <p className="text-white text-[14px] sm:text-[14px] md:text-[15px] lg:text-[15px] xl:text-[15px] 2xl:text-[16px] font-normal font-roboto leading-relaxed mt-4">
             A mentoria serve para planejar, organizar e executar ações

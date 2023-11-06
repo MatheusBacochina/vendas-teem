@@ -12,9 +12,7 @@ const Questions = () => {
           />
         </div>
         <div className="max-w-[586px]">
-          <h6 className="w-[246px] h-[15px] text-orange-600 text-xs font-black font-inter uppercase leading-none">
-            MAIS DE 30 MIL QUESTÕES
-          </h6>
+         
           <h3 className="text-zinc-800 mt-2 text-[22px] sm:text-[24px] md:text-[26px] lg:text-[27px] xl:text-[28px] 2xl:text-[30px] font-bold font-roboto leading-tight">
             Saiba mais detalhes sobre o Banco de Questões Digital (QBank) mais
             completo do Brasil:
@@ -44,7 +42,7 @@ const Questions = () => {
           <div className="flex py-5 gap-4">
             <Image width={40} height={40} alt="medalha" src={"/meda.svg"} />
             <p className="text-black text-base font-normal font-roboto leading-normal">
-              Mais de 10.000 FlashCards com revisões espaçadas. Através dessa
+              FlashCards com revisões espaçadas. Através dessa
               ferramenta, você pode aumentar suas chances em até 4x mais para
               ser aprovado e reter 70% a mais de conteúdo após ele ser estudado.
             </p>
