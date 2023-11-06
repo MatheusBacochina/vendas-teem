@@ -3,13 +3,13 @@ const Article = () => {
   return (
     <article>
       <div className="px-4 mx-auto container flex flex-col lg:flex-row mb-[42px] sm:mb-[53px] md:mb-[59px] lg:mb-[64px] xl:mb-[70px] 2xl:mb-[76px] mt-[42px] sm:mt-[53px] md:mt-[59px] lg:mt-[64px] xl:mt-[70px] 2xl:mt-[76px]">
-        <div className="basis-[458px]">
-          <h6 className="w-[246px] h-[15px] text-orange-600 text-xs font-black font-inter uppercase leading-none">
+        <div className="basis-[496px]">
+          <h6 className="w-[256px] h-[15px] text-orange-600 text-xs font-black font-inter uppercase leading-none">
             UM SALTO NA SUA CARREIRA MÉDICA
           </h6>
           <h3 className="text-zinc-800 mt-2 text-[22px] sm:text-[24px] md:text-[26px] lg:text-[27px] xl:text-[28px] 2xl:text-[30px] font-bold font-roboto leading-tight">
             Segundo a Demografia Médica 2023, o médico detentor do título de
-            especialista em endócrino fatura – em média- 60% a mais do que um
+            especialista fatura – em média- 60% a mais do que um
             médico generalista.
           </h3>
           <p className="text-zinc-800 text-[14px] sm:text-[14px] md:text-[15px] lg:text-[15px] xl:text-[15px] 2xl:text-[16px] font-normal font-roboto leading-relaxed mt-4">

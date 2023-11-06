@@ -8,7 +8,7 @@ const Timeline = () => {
         Descubra o <span className="text-black">Cronograma</span> que vai mudar
         sua carreira!
       </h1>
-      <Link href="https://docs.google.com/spreadsheets/d/1hFSLN4UeG5-tK8UXi83llQK7ZjOD1vLteluki-8tVpw/edit">
+      <Link href="https://api.whatsapp.com/send/?phone=5511942197690&text=Gostaria+de+falar+com+o+suporte&type=phone_number&app_absent=0">
       <button className="w-[297.94px] mt-5 xl:mt-0 h-[59px] px-14 py-5 bg-white hover:shadow rounded-[50px] shadow border border-white justify-center items-center inline-flex">
         <span className="text-center text-black text-[15px] font-bold font-roboto">CLIQUE PARA VISUALIZAR</span>
       </button>
