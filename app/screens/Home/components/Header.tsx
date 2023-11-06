@@ -13,7 +13,6 @@ const Header = () => {
       setOffsetTop(refHeader.current.offsetTop);
     }
     function scroll() {
-      console.log(offsetTop)
       setScrolly(window.scrollY);
     }
     window.addEventListener("scroll", scroll);
