@@ -9,7 +9,7 @@ const ChoiseCard = () => {
       <h4 className="text-center mt-2 text-zinc-800 text-[18px] sm:text-[20px] md:text-[21px] lg:text-[22px] xl:text-[23px] 2xl:text-[24px] font-bold font-roboto">
         INSCREVA-SE NO MEDCOF TEEM 2024
       </h4>
-      <div className="max-w-[400px] flex flex-col items-center px-5 mt-[28px] sm:mt-[40px] md:mt-[46px] lg:mt-[52px] xl:mt-[58px] 2xl:mt-[64px] bg-[#19C37D] rounded-[20px]">
+      <div className="max-w-[400px] flex flex-col items-center px-5 mt-[28px] sm:mt-[40px] md:mt-[46px] lg:mt-[52px] xl:mt-[58px] 2xl:mt-[64px] bg-[#283863] rounded-[20px]">
         <Image
           width={98}
           height={76}
@@ -21,12 +21,12 @@ const ChoiseCard = () => {
           <li className=" text-white text-[13px] font-normal font-roboto gap-2 flex">
             {" "}
             <Image alt="" width={20} height={20} src={"/check.svg"} />
-            Curso criado por Subespecialistas gabaritados
+            Curso criado por subespecialistas gabaritados
           </li>
           <li className=" text-white text-[13px] mt-2 font-normal font-roboto gap-2 flex">
             {" "}
             <Image alt="" width={20} height={20} src={"/check.svg"} />
-            Aulas didáticas voltada para Prova do TEEM 2024
+            Aulas didáticas voltada para prova do TEEM 2024
           </li>
           <li className=" text-white text-[13px] mt-2 font-normal font-roboto gap-2 flex">
             {" "}
