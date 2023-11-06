@@ -66,7 +66,7 @@ const Differential = () => {
               <Image
                 alt="Resumo"
                 fill
-                src={"/Resumo.png"}
+                src={"/resumo.png"}
                 style={{
                   objectFit: "cover",
                 }}
