@@ -62,7 +62,6 @@ const Header = () => {
             height="100%"
             src="https://www.youtube.com/embed/u-XTYYQXa60?si=r_mbvHvwFQ9_ZcNp"
             title="YouTube video player"
-          
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen
           ></iframe>
