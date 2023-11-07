@@ -54,9 +54,7 @@ const ExclusiveAndLimited = () => {
             />
           </div>
           <div className="bg-zinc-100 overflow-hidden text-white font-roboto mt-5 flex justify-between rounded-3xl">
-            <div className="bg-red-600 px-[14px] py-2 w-[90%]">
-              <span>Restam apenas 5 vagas!</span>
-            </div>
+           
           </div>
         </div>
       </div>
