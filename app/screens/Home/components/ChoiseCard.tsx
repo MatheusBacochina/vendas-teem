@@ -3,13 +3,13 @@ import Link from "next/link";
 const ChoiseCard = () => {
   return (
     <div id="card" className="px-4 flex flex-col items-center">
-      <h6 className="h-[15px] mt-6 text-orange-600 text-[14px] sm:text-[14px] md:text-[15px] lg:text-[15px] xl:text-[15px] 2xl:text-[16px] text-center font-black font-inter uppercase leading-none">
+      <h6 className="h-[15px] mt-8 text-orange-600 text-[14px] sm:text-[14px] md:text-[15px] lg:text-[15px] xl:text-[15px] 2xl:text-[16px] text-center font-black font-inter uppercase leading-none">
         FOCO
       </h6>
-      <h4 className="text-center mt-2 text-zinc-800 text-[18px] sm:text-[20px] md:text-[21px] lg:text-[22px] xl:text-[23px] 2xl:text-[24px] font-bold font-roboto">
+      <h4 className="text-center mt-1 text-zinc-800 text-[18px] sm:text-[20px] md:text-[21px] lg:text-[22px] xl:text-[23px] 2xl:text-[24px] font-bold font-roboto">
         INSCREVA-SE NO MEDCOF TEEM 2024
       </h4>
-      <div className="max-w-[400px] flex flex-col items-center px-5 mt-[28px] sm:mt-[40px] md:mt-[46px] lg:mt-[52px] xl:mt-[58px] 2xl:mt-[64px] bg-[#283863] rounded-[20px]">
+      <div className="max-w-[400px] flex flex-col items-center px-5 mt-[18px] sm:mt-[28px] bg-[#283863] rounded-[20px]">
         <Image
           width={98}
           height={76}
@@ -56,14 +56,11 @@ const ChoiseCard = () => {
             Guia Estatístico: análise estatística de desempenho
           </li>
         </ul>
-        <span className="text-center mt-6 text-white text-[18px] font-bold font-roboto leading-none">
-         (Apenas nas primeiras 24H)
-        </span>
-        <span className="text-center mt-2 text-white text-base font-normal font-roboto">
+        <span className="text-center mt-8 text-white text-base font-normal font-roboto">
           <s>R$3.497,00</s>
         </span>
         <h1 className="text-center text-white text-[43px] font-bold font-roboto leading-none">
-          R$249,75
+          R$299,00
         </h1>
         <span className="text-center mt-6 text-white text-base font-normal font-roboto">
           em 12x no cartão

@@ -20,7 +20,6 @@ import Doctors from "./components/Doctors";
 const HomePage = () => {
   return (
     <>
-      <Nav />
       <Header />
       <Article />
       <WhereToStart />
