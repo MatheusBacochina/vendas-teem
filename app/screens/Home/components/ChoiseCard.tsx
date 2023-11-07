@@ -60,7 +60,7 @@ const ChoiseCard = () => {
           <s>R$3.497,00</s>
         </span>
         <h1 className="text-center text-white text-[43px] font-bold font-roboto leading-none">
-          R$299,00
+          R$299,80
         </h1>
         <span className="text-center mt-6 text-white text-base font-normal font-roboto">
           em 12x no cartão
