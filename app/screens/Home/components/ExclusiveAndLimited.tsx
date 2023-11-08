@@ -5,7 +5,7 @@ const ExclusiveAndLimited = () => {
     <div className="px-4 mt-[64px] sm:mt-[80px] pointer-events-none flex justify-center md:mt-[88px] lg:mt-[96px] xl:mt-[104px] 2xl:mt-[112px]">
       <div className="container pointer-events-none overflow-hidden items-center relative px-10 py-10 flex-col lg:flex-row flex bg-black isolate rounded-[20px] gap-9">
         <div className="absolute flex justify-center py-2 top-[50%] rotate-[30deg] w-[200%] left-[50%] -translate-x-[50%] bg-[#e10000b4] z-50">
-          <span className="text-white uppercase font-inter font-semibold text-[22px]">
+          <span className="text-white uppercasex font-inter font-semibold text-[22px]">
             Esgotado
           </span>
         </div>
