@@ -43,13 +43,6 @@ const ChoiseCard = () => {
             <Image alt="" width={20} height={20} src={"/check.svg"} />
             Material de apoio
           </li>
-
-          <li className=" text-white text-[13px] mt-2 font-normal font-roboto gap-2 flex">
-            {" "}
-            <Image alt="" width={20} height={20} src={"/check.svg"} />
-            Mentoria mensal para 20 primeiros
-          </li>
-
           <li className=" text-white text-[13px] mt-2 font-normal font-roboto gap-2 flex">
             {" "}
             <Image alt="" width={20} height={20} src={"/check.svg"} />
