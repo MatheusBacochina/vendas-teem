@@ -33,9 +33,9 @@ const HomePage = () => {
       <Timeline />
       <Stamp />
       <BeApproved />
-      <Doctors />
       <Choise />
       <ChoiseCard />
+      <Doctors />
       <Accordion />
       <Wbnt />
     </>

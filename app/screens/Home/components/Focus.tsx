@@ -1,7 +1,7 @@
 import Image from "next/image";
 const Focus = () => {
   return (
-    <div className="container mx-auto px-4 mt-6">
+    <div className="container mx-auto px-4 mt-[40px] sm:mt-[53px] md:mt-[60px] lg:mt-[66px] xl:mt-[73px] 2xl:mt-[80px]">
       <h6 className="h-[15px] text-orange-600 text-[14px] sm:text-[14px] md:text-[15px] lg:text-[15px] xl:text-[15px] 2xl:text-[16px] text-center font-black font-inter uppercase leading-none">
         FOCO
       </h6>
