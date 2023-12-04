@@ -1,7 +1,7 @@
 import Image from "next/image";
 const BeApproved = () => {
   return (
-    <div className="aspect-[10/5] bg-black my-6 sm:my-0 relative isolate justify-end flex flex-col items-center px-4 py-4 sm:pb-[50px] md:pb-[59px] lg:pb-[68px] xl:pb-[77px] 2xl:pb-[86px]">
+    <div className="pt-80 bg-black  sm:my-0 relative isolate justify-end flex flex-col items-center px-4 py-4 sm:pb-[50px] md:pb-[59px] lg:pb-[68px] xl:pb-[77px] 2xl:pb-[86px]">
       <Image
         alt="background Header"
         fill

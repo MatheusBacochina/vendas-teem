@@ -1,7 +1,7 @@
 import Image from "next/image";
 const Differential = () => {
   return (
-    <div className="bg-black py-8 isolate relative">
+    <div className="bg-black py-8 mt-[64px] sm:mt-[80px] md:mt-[88px] lg:mt-[96px] xl:mt-[104px] 2xl:mt-[112px] isolate relative">
       <Image
         alt="background Header"
         fill

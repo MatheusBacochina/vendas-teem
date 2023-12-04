@@ -51,15 +51,15 @@ const ChoiseCard = () => {
         </ul>
         
         <h1 className="text-center mt-8 text-white text-[43px] font-bold font-roboto leading-none">
-          R$349,82
+          R$333,08
         </h1>
         <span className="text-center mt-6 text-white text-base font-normal font-roboto">
           em 12x no cartão
         </span>
         <span className="text-center mt-1 text-white text-[16px] font-semibold font-roboto leading-none">
-          ou R$3.497,00 à vista.
+          ou R$3.997,00 à vista.
         </span>
-        <Link href="https://vendas.grupomedcof.com.br/pay/medcof-teem-2024" className="w-full mt-8">
+        <Link href="https://vendas.grupomedcof.com.br/pay/medcof-teem" className="w-full mt-8">
           <button className="w-full hover:shadow-md transition-colors shadow py-3 bg-white mb-4 rounded-md justify-center items-center inline-flex">
             <span className="text-center text-stone-900 text-base font-normal font-roboto">
               Quero ser aprovado
