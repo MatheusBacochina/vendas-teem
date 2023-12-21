@@ -13,7 +13,7 @@ const AccordionEl = () => {
             Ficou mais alguma dúvida? Entre em contato com o nosso suporte
             abaixo 🙂
           </h1>
-          <Link href="https://api.whatsapp.com/send/?phone=5511942197690&text=Gostaria+de+falar+com+o+suporte&type=phone_number&app_absent=0" >
+          <Link href="https://www.grupomedcof.com.br/suporte-whatsapp" >
           <button className="bg-green-400 mx-auto md:mx-0 w-full hover:bg-green-300 transition-colors justify-center flex gap-3 items-center py-4 max-w-[300px] rounded-[39px] mt-[24px] sm:mt-[26px] md:mt-[28px] lg:mt-[29px] xl:mt-[30px] 2xl:mt-[32px]">
             <Image width={18} height={18} alt="logo" src={"/ww.svg"} />{" "}
             <span className="text-white text-[17px] font-normal font-roboto">
